@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,10 +6,9 @@
     <title><%= title %></title>
     <link rel="stylesheet" href="/css/sign-instyle.css" />
 
-
 </head>
 <body>
-    <form  action= method="POST" >
+    <form  action="/home" method="POST" >
 		<h1>Sign-in</h1>
         <label for="email">
             EMAIL
@@ -21,7 +20,14 @@
         <input type="password" placeholder="enter your password" id="password" required />
 		<br>
 
-        <input type="submit" placeholder="submit" id="submit" />
+        <a href ="/home">
+        <label>Back</label>
+            <input type = "submit" placeholder="submit" id="submit" />
+            </a>
+
+
+
+
 
     </form>
 </body>
